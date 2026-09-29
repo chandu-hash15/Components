@@ -9,7 +9,7 @@ variable "Project" {
 }
 
 variable "Environment" {
-  default = "Dev1"
+  default = "Dev"
 }
 
 
