@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "chathrun-components-module"
-    key    = "chathrun-common-components-module"
+    bucket = "chathrun-common-components-module"
+    key    = "chathrun-common1-components-module"
     region = "us-east-1"
     use_lockfile = true
   }
