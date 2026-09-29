@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "chathrun-roboshop-components-module"
+    bucket = "chathrun-roboshop1-components-module"
     key    = "chathrun-robo-components-module"
     region = "us-east-1"
     use_lockfile = true
