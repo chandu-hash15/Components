@@ -20,6 +20,6 @@ variable "Component" {
 
 
 variable "domain_name" {
-  default = "mitha.fun"
+  default = "chathrun.fun"
   
 }
