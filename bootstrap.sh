@@ -53,5 +53,3 @@ environment=$2
   ansible-playbook \
   -e "component=$component env=$environment" \
   main.yaml
-
-
