@@ -16,25 +16,25 @@ variable "Environment" {
 
 variable "components" {
   default = {
-    # catalogue = {
-    #   priority = 10
-    # }
+    catalogue = {
+      priority = 10
+    }
 
-    # user = {
-    #   priority = 20
-    # }
+    user = {
+      priority = 20
+    }
 
-    # cart = {
-    #   priority = 30
-    # }
+    cart = {
+      priority = 30
+    }
 
-    # payment = {
-    #   priority = 40
-    # }
+    payment = {
+      priority = 40
+    }
 
-    # shipping = {
-    #   priority = 50
-    # }
+    shipping = {
+      priority = 50
+    }
     frontend = {
       priority = 10
     }
